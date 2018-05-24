@@ -1,0 +1,51 @@
+// ProximaNova
+//------------------------------
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../media/fonts/proximanova/ProximaNova-Regular.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../media/fonts/proximanova/ProximaNova-Regular-Italic.woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../media/fonts/proximanova/ProximaNova-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../media/fonts/proximanova/ProximaNova-Bold-Italic.woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+$font-proxima-nova: 'ProximaNova', Arial, Helvetica, sans-serif;
+
+// Futura
+//------------------------------
+@font-face {
+  font-family: 'FuturaBT-LightCondensed';
+  src: url('../media/fonts/futura/FuturaBT-LightCondensed.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-futura-light: 'FuturaBT-LightCondensed', Arial, Helvetica, sans-serif;
+
+
+// DIN Alternative
+//------------------------------
+@font-face {
+  font-family: 'DIN-Alternate-Bold';
+  src: url('../media/fonts/DIN-Alternate-Bold.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-din: 'DIN-Alternate-Bold', Arial, Helvetica, sans-serif;

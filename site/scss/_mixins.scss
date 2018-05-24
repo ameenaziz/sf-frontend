@@ -1,0 +1,63 @@
+@mixin center-both {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+} 
+
+@mixin center-h {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin center-v {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin stretch-all {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+@mixin super-stretch-all {
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+}
+
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+@mixin fade($time-fade: $time-fade-default, $time-delay: $time-delay-default, $timing-function: $timing-function-default) {
+  max-height: 0;
+  max-width: 0;
+  // overflow: hidden;
+  opacity: 0;
+  transition: opacity $time-fade $timing-function 0s, max-height $timing-function 0s $time-fade, max-width $timing-function 0s $time-fade;
+  &--active {
+    opacity: 1;
+    max-height: $height-page-dynamic;
+    max-width: $width-page-dynamic;
+    transition: opacity $time-fade $timing-function $time-delay, max-height 0s $timing-function $time-delay, max-width 0s $timing-function $time-delay;
+  }
+}
+
+@mixin video-fix {
+  // filter: opacity(100%);
+}
+
+@mixin hardware-accelerate {
+  -webkit-transform: translate3d(0, 0, 0);
+}

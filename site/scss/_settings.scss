@@ -1,0 +1,130 @@
+// Settings
+// ===========================================================================
+
+// Paths
+//------------------------------
+
+$path-images: '../media/images/';
+
+// Colors
+//------------------------------
+$color-white: #ffffff;
+$color-black: #000000;
+$color-light-grey: #eeeeee;
+
+$color-grey-lighter: #e1e1e1;//tab-line off bg
+$color-grey-light: #a5a5a5;//refs title border
+$color-grey: #666666; //references label on scr 1 popup
+
+$color-yellow-pale: #d0bd4c;//text on screensaver
+$color-yellow: #ffd700;//text on main screen
+$color-teal: #008685;//icons on main screen
+$color-teal-dark: #004539;//body background
+$color-green-lime: #77bc1f;
+
+//graph
+$color-orange: #f6a800;//graph on scr 1
+$color-grey-dark: #4a4a49;//text on scr 1 popup y axis label
+
+
+
+// Color Assignments
+//------------------------------
+$color-text: $color-white;
+$color-site-bg: $color-light-grey;
+
+// Sizes
+//------------------------------
+$width-page: 2160px;
+$height-page: 3840px;
+
+$width-page-small: $width-page / 4;
+$height-page-small: $height-page / 4;
+
+$width-page-dynamic: 100vw;
+$height-page-dynamic: 177.77vw;
+
+$size-radius-general: 0.7em;
+
+$width-box-space-right: 4.3rem;
+
+
+
+// Z-Indexes
+//------------------------------
+$z-video-bg: 10;
+$z-content: 20;
+$z-saver: 30;
+$z-mini: 25;
+
+
+// Timings
+//------------------------------
+$timing-function-default: ease-in-out;
+// $timing-function-default: ease;
+// $timing-function-default: linear
+
+//Screen Saver
+//========================
+$time-fade-default: 1s;
+$time-delay-default: 0s;
+
+// Time for saver to fade in or out
+$time-fade-saver: $time-fade-default;
+// Time to wait before fading saver in
+$time-delay-saver: 1s;
+
+// Time for tab content to fade in or out
+$time-tab-content: 0.2s;
+// Time for tab button to change size
+$time-tab-button: $time-tab-content * 2;
+
+// Time for choices to fade out
+$time-fade-out-choice: $time-tab-content * 2;
+
+// Time to wait before fading in content
+$time-delay-content: $time-fade-out-choice;
+// Time for content wrap to fade in
+$time-fade-in-content: 0.5s;
+
+//Time for fade out and in between videos
+$time-video-gap: 0s;//0.3s;
+
+//Profiles timings
+//========================
+$time-profile-wrap-anim: $time-fade-in-content;
+$time-profile-wrap-delay: $time-delay-content;
+
+$time-profile-choice-anim: $time-delay-content;
+$time-profile-choice-delay: $time-fade-in-content;
+
+// $time-profile-anim: $time-profile-wrap-anim;
+// $time-profile-delay: $time-profile-wrap-delay;
+
+//Profile page timings
+//========================
+$time-profile-anim: 0.2s;//0.5s;
+$time-profile-delay: $time-profile-anim;
+$timing-function-profile: ease;
+
+$time-swipe-delay: $time-profile-anim;
+$time-swipe-anim: $time-profile-anim * 2;
+
+//Mini profile timings
+//========================
+$time-mini-drawer: $time-profile-anim;
+
+//Bakcground image imings
+//========================
+$time-fade-bg-img: 0.5s;
+
+// Fonts
+//------------------------------
+$font-base: $font-proxima-nova;
+$font-heading: $font-futura-light;
+
+// Breakpoints
+//------------------------------
+$mq-screen: $width-page - 1;
+
+

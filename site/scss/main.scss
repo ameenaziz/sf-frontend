@@ -1,0 +1,16 @@
+// Main Compilation file for SCSS
+// ===========================================================================
+
+//Lib
+//------------------------------
+@import 'lib/normalize';
+
+// Shared
+//------------------------------
+@import "fonts";
+@import "settings";
+@import "mixins";
+
+// Stylesx
+//------------------------------
+@import "style";
