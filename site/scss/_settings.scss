@@ -11,6 +11,7 @@ $path-images: '../media/images/';
 $color-white: #ffffff;
 $color-black: #000000;
 $color-light-grey: #eeeeee;
+$color-dark-blue: #2e3440;
 
 $color-grey-lighter: #e1e1e1;//tab-line off bg
 $color-grey-light: #a5a5a5;//refs title border
@@ -120,7 +121,7 @@ $time-fade-bg-img: 0.5s;
 
 // Fonts
 //------------------------------
-$font-base: $font-proxima-nova;
+$font-base: $font-roboto;
 $font-heading: $font-futura-light;
 
 // Breakpoints
