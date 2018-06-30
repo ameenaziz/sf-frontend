@@ -8,10 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=Edge,chrome=1" />
     <title>Sightfare</title>
     <!-- <link rel="icon" type="image/png" href="img/favicon.png"> -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css"> -->
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://unpkg.com/vue"></script>
   </head>
-  <body data-zone="1" oncontextmenu="return true;" class="sf sf--main">
+  <body class="sf sf--main">
     <header>
 
         <!-- <h1 class="page-title__title">Booking &amp; Reservations Software for your Tours &amp; Activities Business</h1> -->
@@ -23,7 +25,7 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Login</a></li> -->
-            <li class="logo"><a href="#">Logo</a></li>
+            <li class="logo"><a href="#">{{ product }}</a></li>
             <li><a href="#">test0</a></li>
             <li><a href="#">test1</a></li>
             <li><a href="#">test2</a></li>
@@ -75,7 +77,13 @@
 
         <article class="rolling-quotes">
 
+            <div class="my-slider">
 
+              <div>Lorem ipsum </div>
+              <div>Dolor sit</div>
+              <div>imit divit </div>
+
+            </div>
 
         </article>
 
@@ -119,12 +127,22 @@
           </ul>
           <span>&copy; 2018</span> -->
 
-
-
     </div>
 
       
     </footer>
     <script src="./js/main.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.js"></script>
+
+    <script>
+    
+      var slider = tns({
+        container: '.my-slider',
+        items: 3,
+        slideBy: 'page',
+        autoplay: true
+      });
+  
+    </script> -->
   </body>
 </html>

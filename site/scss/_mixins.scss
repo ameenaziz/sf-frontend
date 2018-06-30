@@ -54,10 +54,6 @@
   }
 }
 
-@mixin video-fix {
-  // filter: opacity(100%);
-}
-
 @mixin hardware-accelerate {
   -webkit-transform: translate3d(0, 0, 0);
 }
